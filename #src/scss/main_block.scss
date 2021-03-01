@@ -1,0 +1,30 @@
+.main-block {
+   position: relative;
+   overflow: hidden;
+   min-height: 100vh;
+}
+.main-block::before {
+   position: absolute;
+   display: block;
+   content: "";
+   width: 900px;
+   height: 768px;
+   background: #ffeaa7;
+   border-radius: 99px;
+   transform: translate(240px, -280px) rotate(-45deg);
+   top: 0;
+   right: 0;
+   z-index: -1;
+}
+
+.main-block::after {
+   position: absolute;
+   display: block;
+   content: "";
+   width: 210px;
+   height: 280px;
+   background-image: url("../img/Dots_1.png");
+   top: 0;
+   right: 0;
+   z-index: 5;
+}
