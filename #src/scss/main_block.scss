@@ -1,7 +1,7 @@
 .main-block {
    position: relative;
    overflow: hidden;
-   min-height: 100vh;
+   min-height: 140vh;
 }
 .main-block::before {
    position: absolute;
@@ -23,8 +23,8 @@
    content: "";
    width: 210px;
    height: 280px;
-   background-image: url("../img/Dots_1.png");
-   top: 0;
-   right: 0;
-   z-index: 5;
+   background-image: url("../img/🎨\ Dots1.png");
+   top: 15px;
+   right: -40px;
+   z-index: 50;
 }

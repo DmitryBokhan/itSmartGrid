@@ -247,6 +247,7 @@ h6 {
   height: 96px;
   padding: 16px 0px;
   background: #fff;
+  overflow: hidden;
 }
 
 .wrap {
@@ -319,7 +320,7 @@ h6 {
 .main-block {
   position: relative;
   overflow: hidden;
-  min-height: 100vh;
+  min-height: 140vh;
 }
 
 .main-block::before {
@@ -342,11 +343,11 @@ h6 {
   content: "";
   width: 210px;
   height: 280px;
-  background-image: url("../img/Dots_1.png");
-  top: 0;
-  right: 0;
-  z-index: 5;
+  background-image: url("../img/🎨 Dots1.png");
+  top: 15px;
+  right: -40px;
+  z-index: 50;
 }
 @supports (-webkit-appearance:none){
-.main-block::after{background-image:url("../img/Dots_1.webp")}
+.main-block::after{background-image:url("../img/🎨 Dots1.webp")}
 }
