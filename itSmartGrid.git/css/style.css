@@ -271,6 +271,11 @@ h6 {
   height: 64px;
 }
 
+.logo__text {
+  margin-left: 2px;
+  padding-top: 5px;
+}
+
 .menu {
   display: flex;
   align-items: center;
@@ -298,7 +303,7 @@ h6 {
 }
 
 .menu__items:not(:last-child) {
-  margin-right: 55px;
+  margin-right: 63px;
 }
 
 .menu__link {
@@ -306,7 +311,7 @@ h6 {
 }
 
 .menu__button {
-  margin-left: 150px;
+  margin-left: 128px;
   border-radius: 999px;
   background: #6c5ce7;
 }
@@ -316,7 +321,7 @@ h6 {
   font-weight: 700;
   font-size: 24px;
   color: #fff;
-  padding: 16px 46px;
+  padding: 18px 45px;
 }
 
 .link_acvtive {
