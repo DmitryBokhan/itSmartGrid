@@ -1,3 +1,14 @@
+.wrap {
+   margin: 0 auto;
+   width: 1170px;
+}
+.header__wrap {
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
 .header {
    box-shadow: 0 4px 8px 0 rgba(38, 50, 56, 0.16);
    height: 96px;
@@ -5,17 +16,11 @@
    background: #fff;
    overflow: hidden;
 }
-.wrap {
-   display: flex;
-   margin: 0 auto;
-   height: 100%;
-   width: 1170px;
-   justify-content: space-between;
-}
 .logo {
    display: flex;
    align-items: center;
    &__img {
+      height: 64px;
    }
 
    &__text {
@@ -46,9 +51,10 @@
       height: 6px;
       border-radius: 100%;
       position: absolute;
-      bottom: 13px;
-      right: -40px;
-      align-items: center;
+      right: -30px;
+      bottom: 12px;
+      //align-items: center;
+      //transform: translate(-50%);
    }
    &__items:not(:last-child) {
       margin-right: 55px;
