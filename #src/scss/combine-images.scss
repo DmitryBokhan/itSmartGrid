@@ -1,9 +1,9 @@
-.main-block {
+.combine__images {
    position: relative;
    overflow: hidden;
    min-height: 140vh;
 }
-.main-block::before {
+.combine-images::before {
    position: absolute;
    display: block;
    content: "";
@@ -17,7 +17,7 @@
    z-index: -1; //asdadsd
 }
 
-.main-block::after {
+.combine-images::after {
    position: absolute;
    display: block;
    content: "";

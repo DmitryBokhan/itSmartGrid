@@ -330,12 +330,12 @@ h6 {
 }
 
 .main-block {
-  position: relative;
+  position: relativcombine__imagese;
   overflow: hidden;
   min-height: 140vh;
 }
 
-.main-block::before {
+.combine__images::before {
   position: absolute;
   display: block;
   content: "";
@@ -349,7 +349,7 @@ h6 {
   z-index: -1;
 }
 
-.main-block::after {
+.combine__images::after {
   position: absolute;
   display: block;
   content: "";
@@ -361,5 +361,5 @@ h6 {
   z-index: 50;
 }
 @supports (-webkit-appearance:none){
-.main-block::after{background-image:url("../img/Dots1.webp")}
+.combine__images::after{background-image:url("../img/Dots1.webp")}
 }
