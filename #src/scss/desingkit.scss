@@ -13,27 +13,57 @@
    }
 
    &__cart {
+      display: flex;
+      margin-top: 40px;
    }
 
    &__item {
+      width: 270px;
+   }
+   &__item:not(:first-child) {
+      margin-left: 30px;
    }
 
    &__icon {
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #e84393;
+      background-color: #999; //color to drow
       width: 70px;
       height: 70px;
       border-radius: 100%;
    }
 
    &__item-title {
+      margin-top: 24px;
    }
 
    &__item-text {
+      margin-top: 16px;
    }
 
    &__item-button {
+      display: inline-block;
+      border: 2px solid #adadad;
+      border-radius: 20px;
+      font-weight: 700;
+      color: #6c5ce7;
+      background: #fff;
+      padding: 8px 22px;
+      margin-top: 15px;
    }
+}
+
+// modifiers for icon background
+.icon_bg-pink {
+   background: #e84393;
+}
+.icon_bg-blue {
+   background: #0984e3;
+}
+.icon_bg-purple {
+   background: #6c5ce7;
+}
+.icon_bg-green {
+   background: #00b894;
 }
