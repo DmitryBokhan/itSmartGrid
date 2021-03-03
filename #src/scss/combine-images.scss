@@ -3,7 +3,7 @@
    overflow: hidden;
    min-height: 140vh;
 }
-.combine-images::before {
+.combine__images::before {
    position: absolute;
    display: block;
    content: "";
@@ -17,7 +17,7 @@
    z-index: -1; //asdadsd
 }
 
-.combine-images::after {
+.combine__images::after {
    position: absolute;
    display: block;
    content: "";

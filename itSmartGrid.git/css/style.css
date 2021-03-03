@@ -242,11 +242,6 @@ h6 {
   text-transform: uppercase;
 }
 
-.wrap {
-  margin: 0 auto;
-  width: 1170px;
-}
-
 .header__wrap {
   height: 100%;
   display: flex;
@@ -329,8 +324,8 @@ h6 {
   font-weight: 700;
 }
 
-.main-block {
-  position: relativcombine__imagese;
+.combine__images {
+  position: relative;
   overflow: hidden;
   min-height: 140vh;
 }
@@ -359,6 +354,11 @@ h6 {
   top: 15px;
   right: -40px;
   z-index: 50;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 1170px;
 }
 @supports (-webkit-appearance:none){
 .combine__images::after{background-image:url("../img/Dots1.webp")}
