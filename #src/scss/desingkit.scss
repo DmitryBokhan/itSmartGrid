@@ -1,0 +1,39 @@
+.desingkit {
+   height: 100vh;
+
+   &__wrap {
+   }
+
+   &__title {
+      margin-top: 80px;
+   }
+
+   &__subtitle {
+      margin-top: 15px;
+   }
+
+   &__cart {
+   }
+
+   &__item {
+   }
+
+   &__icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #e84393;
+      width: 70px;
+      height: 70px;
+      border-radius: 100%;
+   }
+
+   &__item-title {
+   }
+
+   &__item-text {
+   }
+
+   &__item-button {
+   }
+}

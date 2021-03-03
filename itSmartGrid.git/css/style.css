@@ -356,6 +356,28 @@ h6 {
   z-index: 50;
 }
 
+.desingkit {
+  height: 100vh;
+}
+
+.desingkit__title {
+  margin-top: 80px;
+}
+
+.desingkit__subtitle {
+  margin-top: 15px;
+}
+
+.desingkit__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e84393;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+
 .wrap {
   margin: 0 auto;
   width: 1170px;
