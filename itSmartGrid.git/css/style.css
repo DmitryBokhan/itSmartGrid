@@ -371,14 +371,23 @@ h6 {
 .desingkit__cart {
   display: flex;
   margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.desingkit__cart-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.desingkit__cart-wrap:not(:first-child) {
+  margin-left: 30px;
 }
 
 .desingkit__item {
+  display: flex;
+  flex-direction: column;
   width: 270px;
-}
-
-.desingkit__item:not(:first-child) {
-  margin-left: 30px;
 }
 
 .desingkit__icon {
@@ -400,7 +409,7 @@ h6 {
 }
 
 .desingkit__item-button {
-  display: inline-block;
+  display: box;
   border: 2px solid #adadad;
   border-radius: 20px;
   font-weight: 700;
