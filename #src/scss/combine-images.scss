@@ -24,7 +24,8 @@
    width: 210px;
    height: 280px;
    background-image: url("../img/Dots1.png");
+   background-size: content;
    top: 15px;
    right: -40px;
-   z-index: 50;
+   z-index: -1;
 }

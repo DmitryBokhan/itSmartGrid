@@ -90,13 +90,13 @@ h6 {
 //@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 // font-family: 'Inter', sans-serif;
 
+.wrap {
+	margin: 0 auto;
+	max-width: 1170px;
+}
+
 @import "fonts";
 @import "typography";
 @import "header";
 @import "combine-images";
 @import "desingkit";
-
-.wrap {
-	margin: 0 auto;
-	width: 1170px;
-}

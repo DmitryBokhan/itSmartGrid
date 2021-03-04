@@ -91,6 +91,11 @@ h6 {
 
 /*--------------------*/
 
+.wrap {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
 @font-face {
   font-family: "Inter";
   font-display: swap;
@@ -351,9 +356,10 @@ h6 {
   width: 210px;
   height: 280px;
   background-image: url("../img/Dots1.png");
+  background-size: content;
   top: 15px;
   right: -40px;
-  z-index: 50;
+  z-index: -1;
 }
 
 .desingkit {
@@ -409,14 +415,14 @@ h6 {
 }
 
 .desingkit__item-button {
-  display: box;
   border: 2px solid #adadad;
   border-radius: 20px;
   font-weight: 700;
   color: #6c5ce7;
   background: #fff;
-  padding: 8px 22px;
+  padding: 10px 22px 5px 22px;
   margin-top: 15px;
+  margin-bottom: 40px;
 }
 
 .icon_bg-pink {
@@ -433,11 +439,6 @@ h6 {
 
 .icon_bg-green {
   background: #00b894;
-}
-
-.wrap {
-  margin: 0 auto;
-  width: 1170px;
 }
 @supports (-webkit-appearance:none){
 .combine__images::after{background-image:url("../img/Dots1.webp")}

@@ -48,18 +48,19 @@
    }
 
    &__item-text {
+      // height: 100%;
       margin-top: 16px;
    }
 
    &__item-button {
-      display: box;
       border: 2px solid #adadad;
       border-radius: 20px;
       font-weight: 700;
       color: #6c5ce7;
       background: #fff;
-      padding: 8px 22px;
+      padding: 10px 22px 5px 22px;
       margin-top: 15px;
+      margin-bottom: 40px;
    }
 }
 
