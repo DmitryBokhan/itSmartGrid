@@ -96,6 +96,14 @@ h6 {
   max-width: 1170px;
 }
 
+.button {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  padding: 18px 45px;
+}
+
 @font-face {
   font-family: "Inter";
   font-display: swap;
@@ -314,14 +322,6 @@ h6 {
   margin-left: 128px;
   border-radius: 999px;
   background: #6c5ce7;
-}
-
-.button {
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  color: #fff;
-  padding: 18px 45px;
 }
 
 .link_acvtive {
